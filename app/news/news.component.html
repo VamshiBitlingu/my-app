@@ -1,0 +1,34 @@
+
+
+   <div id="head" height="40" > 
+     
+        <th> <img class="bicon" src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-blue-and-white-square-icons-alphanumeric/116500-matte-blue-and-white-square-icon-alphanumeric-letter-bb.png"  />  </th>       
+        <th>  <h1 id="heading">  Bitling News  </h1> </th> 
+        <th> <h3> <a id="btnhome" href=" " > Home </a> </h3>  </th> 
+        <th>  <h3> <a id="btnabout" href="" >  About  </a> </h3> </th> 
+        <th>  <h3> <a id="btnlogout" href="" >  Logout </a> </h3> </th> 
+        
+   </div>  
+   <br> <br>  <br> <br> 
+
+    
+    <div *ngFor="let article of news.articles" id="newstl" > 
+ 
+     <table id="newsbox" border="0"  >
+     
+       <tr> <b> <h3>  {{ article.title }}  </h3> </b>  </tr>  <br> 
+   
+       <tr> <img src= "{{ article.urlToImage}}"  id="article-image"  />   </tr> <br>
+  
+       <tr> <h4 id="descript" > {{ article.description}} </h4>  </tr> <br>
+  
+       <tr> By Author {{  article.author  }}   </tr> 
+    
+        <tr> For more info:<a  href="{{article.url}}"> Read more...</a> </tr>   <br><br>
+
+     </table> 
+
+
+</div>
+
+

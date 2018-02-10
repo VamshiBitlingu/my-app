@@ -1,0 +1,26 @@
+
+
+.bicon { height:50px; width:50px; padding-left:0px;   }
+
+#head{  border:1; background: blue; line-height: 20px;width:100%; position:fixed;  } 
+
+#heading{  color:white; padding-left:20px;  }
+
+
+#btnhome  { color:white; padding-left:700px; }
+
+#btnabout { color:white; padding-left:50px;   } 
+
+#btnlogout { color:white; padding-left:50px;   } 
+
+
+ #newstl{ padding-left:80px;   }
+
+  p{ font-size:18; font-family:Georgia, 'Times New Roman', Times, serif;     }
+ 
+#newsbox{   border:blue;  } 
+
+#article-image{  max-height:800px; max-width:600px;   } 
+
+#descript{   padding-right:100px;  line-spacing:5px;     } 
+
