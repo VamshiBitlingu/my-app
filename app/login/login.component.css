@@ -1,0 +1,15 @@
+
+.top-layout{ background-color:white; border:2; height:5%;   }
+
+.top-layout2{  border:5; height:10%; width:20%; }
+h1{ white-space:pre;  padding-left:50; text-align:center;  }
+
+.login-form{   height:400; width:600;  border:2; border-color:navy; }
+
+.uname-fill{  padding-left:40; font:bold; font-size:20;  }
+
+.pword-fill{   font:bold; font-size:20;    }
+
+
+.loginbtn{  size:30;  border:2;  font:bold; }
+         
