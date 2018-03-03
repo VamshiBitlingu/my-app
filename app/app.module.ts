@@ -9,6 +9,7 @@ import { ApiService } from './news/api.service';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
+import { MusicComponent } from './music/music.component';
 
  const approutes: Routes= [
 
@@ -23,7 +24,8 @@ import { ProductsComponent } from './products/products.component';
     NewsComponent,
     HomeComponent,
     LoginComponent,
-    ProductsComponent
+    ProductsComponent,
+    MusicComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, RouterModule.forRoot(approutes) 
